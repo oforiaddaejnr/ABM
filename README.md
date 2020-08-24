@@ -2,5 +2,5 @@
 
 
 ## Week 1
-[Week 1 Activity](Week1Activity/PathBetweenHomes.png)
+[Week 1 Activity](Week1Activity/README.md)
 

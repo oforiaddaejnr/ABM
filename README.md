@@ -1,9 +1,6 @@
-# Ghana
+# Agent Based Modeling
 
-Ghana is my homeland
 
-## Ghana's flag
-![](Flag-Ghana.jpg)
+## Week 1
+[Week 1 Activity](Week1Activity/PathBetweenHomes)
 
-## New Administrative Regions of Ghana
-![](Ghana.jpg) 

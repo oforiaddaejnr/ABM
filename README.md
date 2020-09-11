@@ -6,4 +6,4 @@
 
 
 ## Week 2
-[Projecting, Plotting and Labelling Administrative Subdivisions](Week2Projectng/README.md)
+[Projecting, Plotting and Labelling Administrative Subdivisions](Week2Projecting/README.md)

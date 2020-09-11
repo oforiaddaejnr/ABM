@@ -2,8 +2,8 @@
 
 
 ## Week 1
-[Intro to R](Week1Activity/README.md) <br />
-[Projecting, Plotting and Labelling Administrative Subdivisions]
+[Intro to R](Week1Activity/README.md)
 
 
 ## Week 2
+[Projecting, Plotting and Labelling Administrative Subdivisions] <br />

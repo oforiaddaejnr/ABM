@@ -8,3 +8,6 @@
 ## Week 2
 [Projecting, Plotting and Labelling Administrative Subdivisions](Week2Projecting/README.md) <br />
 [Extracting Populations from a Raster and Aggregating to each Unit](Week2Extracting/README.md)
+
+## Data Insights
+[Data Insights 1](DataInsights1.md)

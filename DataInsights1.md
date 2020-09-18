@@ -9,4 +9,4 @@ Another approach has also employed the use of CNNs (Convolutional Neural Network
 This could lead to a whole set of possibilities, since we could start using just images to do time consuming work and possibly even get rid of some of the groundwork stuff such as <br/>
 door to door visits. Applying machine learning to things could even lead us to identify things that we could not even spot or were not even looking out for before.
 
-Sources: https://www.gislounge.com/using-crowdsourcing-and-deep-learning-to-map-human-settlements/ ; https://dataaspirant.com/multinomial-logistic-regression-model-works-machine-learning/
+Sources: [a link](https://www.gislounge.com/using-crowdsourcing-and-deep-learning-to-map-human-settlements/) ; [a link](https://dataaspirant.com/multinomial-logistic-regression-model-works-machine-learning/)

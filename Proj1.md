@@ -26,7 +26,7 @@ Below is also a plot of the de facto settlements of the region. As you can tell 
 
 Here is another defacto settlement plot, but this time with the concentrated swatches much highlighted or isolated <br/>
 
-![](Project1/defactorcontour.png)
+![](Project1/defactocontour.png)
 
 To give a better idea of the plot above, I decided to run some processes to isolate the areas that were more densely populated and below is the result <br/>
 
@@ -41,5 +41,5 @@ To get a further view of what the area is like, I added roads and healthcare fac
 they have a good number of roads. The green dot represents a clinic and the blue dot a hospital. It seems these amenities are hardly prevalent in the area. This affected greatly during the Ebola epidemic -- <br/>
 I came across an article while researching the area talking about how the needs of the area went unment healthwise most of the time and how this affected them during the Ebola epidemic.
 
-![](Project1/main_rds.png)
-![](Project1/healthcare.png)
+![](Project1/main_roads.png)
+![](Project1/healthcareaccess.png)

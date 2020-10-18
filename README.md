@@ -11,6 +11,7 @@
 
 ## Data Insights
 [Data Insights 1](DataInsights1.md)
+[Data Insights 2](DataInsights2.md)
 
 ## Project 1
 [Project 1](Proj1.md)

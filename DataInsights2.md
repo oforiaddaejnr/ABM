@@ -12,8 +12,8 @@ Synthetic datasets can even be far reaching in cases where it helps one get arou
 
 Luckily there are various library packages that can assist with this. Some are as follows:
 
-Scikit-learn: This python library has various functions for tackling the need for synthetic data such as the make_regression function which can create random regression problems with arbitrary number of input features, output targets, and controllable degree of informative coupling between them. It can also mix Gaussian noise. Another is make_classification which generates a random multi-class classification problem (dataset) with controllable class separation and added noise. You can also randomly flip any percentage of output signs to create a harder classification dataset if you want. However, while these functions are great, the user has no easy control over what goes on under the hood.
-Sympy: This enables you to create functions similar to those available in scikit-learn, but allows you to generate regression and classification datasets with symbolic expression of high degree of complexity
+- Scikit-learn: This python library has various functions for tackling the need for synthetic data such as the make_regression function which can create random regression problems with arbitrary number of input features, output targets, and controllable degree of informative coupling between them. It can also mix Gaussian noise. Another is make_classification which generates a random multi-class classification problem (dataset) with controllable class separation and added noise. You can also randomly flip any percentage of output signs to create a harder classification dataset if you want. However, while these functions are great, the user has no easy control over what goes on under the hood.
+- Sympy: This enables you to create functions similar to those available in scikit-learn, but allows you to generate regression and classification datasets with symbolic expression of high degree of complexity
 
 
 https://towardsdatascience.com/synthetic-data-generation-a-must-have-skill-for-new-data-scientists-915896c0c1ae

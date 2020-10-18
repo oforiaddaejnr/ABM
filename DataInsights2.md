@@ -1,3 +1,5 @@
+# Synthetic Data Generation - a must have skill for Data Scientists
+
 Data is the new oil and truth be told only a few big players have the strongest hold on that currency. Googles and Facebooks of this world are so generous with their latest machine learning algorithms and packages (they give those away freely) because the entry barrier to the world of algorithms is pretty low right now.
 
 Even with so much data out there, no matter how large your dataset is, it is still fixed, with a fixed number of samples, patterns, fixed degree of class separation between positive and negative samples - assuming we are looking at a classification problem

@@ -18,4 +18,4 @@
 
 ## Project 2
 [9/30/2020](Project2/Proj2.md) <br />
-[Project Deliverable]()
+[Project Deliverable](Project2/Deliverable.md)

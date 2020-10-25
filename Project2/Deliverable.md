@@ -48,12 +48,9 @@ The above lines of code was used to generate the density plot below
 As you can tell, the raw dhs data has a much greater distribution and heterogeneity. If you subset to just the Moyamba observations, what happens if you're suppressing the heterogeneity cos the sample size is too small. What may end up happening is you may end up overprediction some elements of the data and underprediction some. So you make the decision to use the household sample data instead of the Moyamba because there aren’t that much observations in Moyamba as to the raw DHS data, so while it may not be exactly where we are in terms of adm2, it’s a better representation in the small subset
 
 ### Expand households to persons
-I expanded my households to person by pivoting the following columns in my data: gender, age, and education
-
+I expanded my households to person by pivoting the following columns in my data: gender, age, and education.
 I then plotted the expanded data and got this
-
 ![moymaba_spatial_expansion](moyamba.png)
-
 Also, using the inherent design of the survey we would have expected to produce 47302 persons, while the raw data itself produced 47386. The calculated weighted error was 0.001765266
 
 ## Q4

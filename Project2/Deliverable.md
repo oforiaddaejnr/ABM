@@ -69,4 +69,6 @@ To test the accuracy of my synthetically generated data, I ran an ML algorithm o
 ![accuracy](accuracy.png)
 
 ![roc_curves](roc_curve.png) <br />
-Roc curves - 0, 1, and 2 are 3 of my better predictors for eductaion. For a worthless test, my line would lie on the diagonal dotted line. The closer an ROC curve is to the upper left corner, the more efficient is the test. From our 3 better predictors you can tell all cut-offs the true positive rate (sensitivity)  is higher and the false positive rate (specificity) since the curves are closer to the upper left corner
+Roc curves - 0, 1, and 2 are 3 of my better predictors for eductaion. For a worthless test, my line would lie on the diagonal dotted line. The closer an ROC curve is to the upper left corner, the more efficient is the test. From our 3 better predictors you can tell all cut-offs the true positive rate (sensitivity)  is higher and the false positive rate (specificity) since the curves are closer to the upper left corner. 
+
+To improve model accuracy even further, the GPS data would have really come in handy to help narrow things down

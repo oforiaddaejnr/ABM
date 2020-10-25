@@ -52,7 +52,7 @@ I expanded my households to person by pivoting the following columns in my data:
 
 I then plotted the expanded data and got this
 
-(*Insert Moyamba.png* )
+![moymaba_spatial_expansion](moyamba.png)
 
 Also, using the inherent design of the survey we would have expected to produce 47302 persons, while the raw data itself produced 47386. The calculated weighted error was 0.001765266
 

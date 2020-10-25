@@ -9,7 +9,7 @@ This DHS report is for Sierra Leone 2013
 - Questionnaires - Household, Women, and Men Questionnaires**
 - The columns that were analyzed from the dataset were the household id (hhid), units(hv004), weights(hv005), size(hv009), sex (hv104_01 - 104_90), age(hv105_01 - hv105_90), education(hv106_01 - 106_90), and wealth(hv270)
 
-(Insert screenshot of binded data set)
+[dataset](cbind.png)
 
 ## Q2
 

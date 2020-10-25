@@ -67,4 +67,5 @@ Heat maps with a lot of color represent variation in our data. Same color means 
 
 Talk about accuracy of synthetically generated data you run an ML algorithm on education
 ![roc_curves](roc_curve.png)
+
 Roc curves - 0, 1, and 2 are 3 of my better predictors for eductaion. For a worthless test, my line would lie on the diagonal dotted line. The closer an ROC curve is to the upper left corner, the more efficient is the test. From our 3 better predictors you can tell all cut-offs the true positive rate (sensitivity)  is higher and the false positive rate (specificity) since the curves are closer to the upper left corner

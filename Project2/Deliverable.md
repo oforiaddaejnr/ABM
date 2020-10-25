@@ -39,6 +39,7 @@ adm2_sampP <- slice_sample(hhs, n = moyamba_hhs_n, replace = TRUE)
 adm2_sampP1 <- slice_sample(moyamba_hhs, n = moyamba_hhs_n, replace = TRUE)
 ```
 adm2_samP - drawing household observations for Moyamba from the whole dataset
+
 adm2_samP1 - drawing household observations from Moyamba itself
 The above lines of code was used to generate the density plot below
 

@@ -1,4 +1,4 @@
-# Project 2: generating synthetic populations 
+# Project 2: Generating synthetic populations 
 
 ## Q1    
 This DHS report is for Sierra Leone 2013
@@ -27,7 +27,7 @@ When I tried to pivot my data and spatially locate it at adm 0, I faced a bunch 
 ## Q3
 
 After analyzing my data, I realized unlike most people in the class, my data had been tailored towards adm2, so that is what I used.
-## Trying to spatially locate adm2
+### Trying to spatially locate adm2
 For adm2, I subsetted Moyamba from the data to work on as that had been my area of interest for Sierra Leone in project 1. The average number of households in Moyamba is 47386. The weight of the household size in Moyamba was 722.5517 - what the design projected the number of households to be. It’s saying we are anticipating approximately 723 households. The number of rows was 847 - in reality this is the number of households
 
 ### Geom_density plot interpretation

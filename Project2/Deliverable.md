@@ -11,7 +11,7 @@ This DHS report is for Sierra Leone 2013
 
 (Insert screenshot of binded data set)
 
-Q2
+## Q2
 
 ### Expanding survey data to persons
 Sum of weights for the hhs is the same as number of rows as expected cos the survey design was set at the unit of the household, but when we disaggregated (pivoted) from household down to the persons within the households, the weights change that is why the weight of persons does not match the rows of the number of persons because we are validating the number of persons from the larger population. During the survey the enumerators may have had an idea of how many people may be in the house, but they did not know exactly. The number of households may have been less or much more than they may have estimated when they were doing the survey. So when we pivoted from households to persons we compromised the inherent accuracy of the raw data itself and got 74835.12. This then messed with the weights of the observations that is why they don’t match the number of rows for persons. So using the inherent design of the survey we would have expected to produce 74835 persons, while the raw data itself produced 75299. A 1.2 % survey of all the persons from the population of Sierra Leone were selected to include in the survey and we got this by dividing the number of rows in the person column by the total population of Sierra Leone(89-96).

@@ -63,9 +63,8 @@ Also, using the inherent design of the survey we would have expected to produce 
 *An alternative to normalize is the percentize function. This is similar to ranking the variables, but instead of keeping the rank values, divide them by the maximal rank. This is done by using the ecdf of the variables on their own values, bringing each value to its empirical percentile. The benefit of the percentize function is that each value has a relatively clear interpretation, it is the percent of observations with that value or below it*
 ![percentize](percent.png)
 
-Heat maps with a lot of color represent variation in our data. Same color means no variation. That’s why percentize is better because it breaks it down even further
+Heat maps with a lot of color represent variation in our data. Same color means no variation. That’s why percentize is better because it breaks it down even further, so you can easily analyze and see which columns of your data are doing a much better job
 
 Talk about accuracy of synthetically generated data you run an ML algorithm on education
-
-(*Insert roc curves*)
-Roc curves - 0, 1, and 2 are 3 of my better predictors. For a worthless test, my line would lie on the diagonal dotted line. The closer an ROC curve is to the upper left corner, the more efficient is the test. From our 3 better predictors you can tell all cut-offs the true positive rate (sensitivity)  is higher and the false positive rate (specificity) since the curves are closer to the upper left corner
+![roc_curves](roc_curve.png)
+Roc curves - 0, 1, and 2 are 3 of my better predictors for eductaion. For a worthless test, my line would lie on the diagonal dotted line. The closer an ROC curve is to the upper left corner, the more efficient is the test. From our 3 better predictors you can tell all cut-offs the true positive rate (sensitivity)  is higher and the false positive rate (specificity) since the curves are closer to the upper left corner

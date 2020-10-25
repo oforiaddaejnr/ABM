@@ -17,5 +17,5 @@
 [Project 1](Proj1.md)
 
 ## Project 2
-[9/30/2020](Project2/Proj2.md)
-[Project Deliverable]
+[9/30/2020](Project2/Proj2.md) <br />
+[Project Deliverable]()

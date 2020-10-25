@@ -65,7 +65,8 @@ Also, using the inherent design of the survey we would have expected to produce 
 
 Heat maps with a lot of color represent variation in our data. Same color means no variation. That’s why percentize is better because it breaks it down even further, so you can easily analyze and see which columns of your data are doing a much better job
 
-Talk about accuracy of synthetically generated data you run an ML algorithm on education
-![roc_curves](roc_curve.png)
+To test the accuracy of my synthetically generated data, I ran an ML algorithm on education and got surprising results. When compared to a randomly generated synthetic population that describes the demographic attributes of households and persons, it does a pretty okay job of closely approximating reality, especailly for the education variable where accuracy is approximately 74%
+![accuracy](accuracy.png)
 
+![roc_curves](roc_curve.png)
 Roc curves - 0, 1, and 2 are 3 of my better predictors for eductaion. For a worthless test, my line would lie on the diagonal dotted line. The closer an ROC curve is to the upper left corner, the more efficient is the test. From our 3 better predictors you can tell all cut-offs the true positive rate (sensitivity)  is higher and the false positive rate (specificity) since the curves are closer to the upper left corner

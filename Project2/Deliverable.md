@@ -34,12 +34,17 @@ After analyzing my data, I realized unlike most people in the class, my data had
 For adm2, I subsetted Moyamba from the data to work on as that had been my area of interest for Sierra Leone in project 1. The average number of households in Moyamba is 47386. The weight of the household size in Moyamba was 722.5517 - what the design projected the number of households to be. It’s saying we are anticipating approximately 723 households. The number of rows was 847 - in reality this is the number of households
 
 ### Geom_density plot interpretation
-
+```
+adm2_sampP <- slice_sample(hhs, n = moyamba_hhs_n, replace = TRUE)
+adm2_sampP1 <- slice_sample(moyamba_hhs, n = moyamba_hhs_n, replace = TRUE)
+```
 adm2_samP - drawing household observations for Moyamba from the whole dataset
 adm2_samP1 - drawing household observations from Moyamba itself
-Run 202 and 203 and as you can tell, the raw dhs data has a much greater distribution and heterogeneity. If you subset to just the Moyamba observations, what happens if you're suppressing the heterogeneity cos the sample size is too small. What may end up happening is you may end up overprediction some elements of the data and underprediction some. So you make the decision to use the hhs data instead of the Moyamba cos there aren’t that much observations in Moyamba as to the raw DHS data, so while it may not be exactly where we are in terms of adm2, it’s a better representation in the small subset
+The above lines of code was used to generate the density plot below
 
 ![density_plot](geom_density.png)
+
+As you can tell, the raw dhs data has a much greater distribution and heterogeneity. If you subset to just the Moyamba observations, what happens if you're suppressing the heterogeneity cos the sample size is too small. What may end up happening is you may end up overprediction some elements of the data and underprediction some. So you make the decision to use the household sample data instead of the Moyamba because there aren’t that much observations in Moyamba as to the raw DHS data, so while it may not be exactly where we are in terms of adm2, it’s a better representation in the small subset
 
 ### Expand households to persons
 I expanded my households to person by pivoting the following columns in my data: gender, age, and education

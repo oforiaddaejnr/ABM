@@ -7,6 +7,7 @@ This DHS report is for Sierra Leone 2013
 - Questionnaires - Household, Women, and Men Questionnaires**
 - The columns that were analyzed from the dataset were the household id (hhid), units(hv004), weights(hv005), size(hv009), sex (hv104_01 - 104_90), age(hv105_01 - hv105_90), education(hv106_01 - 106_90), and wealth(hv270)
 (Insert screenshot of binded data set)
+
 Q2
 (*Insert some of the notes you took from version1)
 Expanding survey data to persons
@@ -15,6 +16,7 @@ Sum of weights for the hhs is the same as number of rows as expected cos the sur
 The above plot may not be the most accurate. It’s a randomly generated point of where various households will be located based on the density of the population. Obviously the higher the population density in an area the higher the chance of more points being generated in that area. However if we wanted to be more accurate, we could have requested GPS data from DHS to improve spatial accuracy because it would have given us some central point in our data to better estimate the number of households in a certain range. So if we had that, we could have taken the center point of the cluster and based on whether if was rural or urban, we could have taken that radius and overlaid it over our population density and further improved the accuracy, so instead of using the whole country we could have set the window to spatially locate the households to the radius of the GPS data
 Trying to spatially locate adm0 households and expand households to persons
 When I tried to pivot my data and spatially locate it at adm 0, I faced a bunch of computational problems. My R studio kept having to restart as it could not process that much data. This was because I was trying to get R to process almost a million observations (998296 observations to be exact) and spatially locate them over a very wide area.
+
 Q3
 After analyzing my data, I realized unlike most people in the class, my data had been tailored towards adm2, so that is what I used.
 Trying to spatially locate adm2

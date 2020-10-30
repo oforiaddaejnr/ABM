@@ -21,6 +21,7 @@ This scales the features in a way that they range between [-1,1]
 
 When to use what?
 In contrast to standardisation, we will obtain smaller standard deviations through the process of Normalisation.
-Normalisation typically allows us to transform the data with varying scales so that no specific dimension will dominate the statistics, and it does not require making a very strong assumption about the distribution of the data, such as k-nearest neighbours and artificial neural networks. However, Normalisation does not treat outliers very well. On the contrary, standardisation allows users to better handle the outliers and facilitate convergence for some computational algorithms like gradient descent. Therefore, we usually prefer Standardisation over Normalisation
+Normalisation typically allows us to transform the data with varying scales so that no specific dimension will dominate the statistics, and it does not require making a very strong assumption about the distribution of the data, such as k-nearest neighbours and artificial neural networks. However, Normalisation does not treat outliers very well. On the contrary, standardisation allows users to better handle the outliers and facilitate convergence for some computational algorithms like gradient descent. Therefore, we usually prefer Standardisation over Normalisation.
 However, even with the above there is no obvious answer to this question: it really depends on the application.
 What algorithms need feature scaling?
+![whenToFeatureScale](images/algoFeatureScaling.png)

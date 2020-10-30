@@ -8,14 +8,14 @@ But first of all, what is feature scaling? Feature scaling is a technique to cha
 What is Normalization?
 It’s a scaling technique that when applied to features rescales them, so they range between [0,1]. Normalization is also known as Max-Min Normalization due to the Min-Max scaling of features with a distribution value between 0 and 1. The general equation is as follows:
 
-![normalization](images/eqnNormalization)
+![normalization](images/eqnNormalization.png)
 
 In the above formula, x is the original value and xnorm is the normalized value. 
 
 What is Standardization?
 Standardization (also called, Z-score normalization) is a scaling technique such that when it is applied the features will be rescaled so that they’ll have the properties of a standard normal distribution with mean,μ=0 and standard deviation, σ=1; where μ is the mean (average) and σ is the standard deviation from the mean. Standardization is very useful for optimization algorithms like gradient descent. Standardization helps gradient descent converge much faster with feature scaling than without it. The equation is shown below:
 
-![standardization](images/eqnStandardization)
+![standardization](images/eqnStandardization.png)
 
 This scales the features in a way that they range between [-1,1]
 

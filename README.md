@@ -12,7 +12,8 @@
 ## Data Insights
 [Data Insights 1](DataInsights1.md) <br />
 [Data Insights 2](DataInsights2.md) <br />
-[Data Insights 3](DataInsights3.md)
+[Data Insights 3](DataInsights3.md) <br/>
+[Data Insights 4](DataInsights4.md)
 
 ## Project 1
 [Project 1](Proj1.md)

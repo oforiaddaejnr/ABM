@@ -10,7 +10,8 @@ To learn more about how gravity models, how they work, and what they look like I
 ## ODM for Sierra Leone
 After following the London tutorial, I decided to look at the gravity model for the country of Sierra Leone, which has been the country I have used in every project this semester. For Sierra Leone, I looked at the migration flows at an ADM2 level, which has been how most of the projects I have done on Sierra Leone have turned out to be. Most of the data collected on Sierra Leone seems to be at the ADM2 level. To visualize the migration flow in Sierra Leone, I procured data on 5 year internal migration flow from worldpop.org. Using the data procured, Icreated plots showing the origin and destination flow sums for Sierra Leone’s ADM2. Below are the plots showing the flow sums for Sierra Leone’s ADM2
 
-![origin](orgin.png)
+![origin](origin.png)
+
 ![destination](destination.png)
 
 [Talk about the Plots]
@@ -34,7 +35,7 @@ If I had further time, I would have done some research into modifying the number
 ## Voronoi
 At the ADM2 level for Sierra Leone, using the defacto settlements from project 1 for Moyamba, I produced a tesselation of voronoi polygons -- Voronoi plots are a simple concept, and it's based on the minimal distance needed to reach a landmark. If you need to go to a metro station, the most natural algorithm is going to the nearest one. Simple, isn't it?. Below is the voronoi plot:
 
-![voronoi plot](moyamba_voronoi.png)
+![voronoi plot](moyamba_voronoi_plot.png)
 
 Above, Moyamba is  divided into cells, each cell covering the region closest to a particular centre. Voronoi tesselations come in handy. Say for example you want to choose a location for a new service, such as a school, which is as far as possible from existing schools while still serving the maximum number of families. A Voronoi diagram can be used to find the largest empty circle amid a collection of points, giving the ideal location for the new school. Of course, numerous parameters other than distance must be considered, but access time is often the critical factor.
 

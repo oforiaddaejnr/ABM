@@ -30,7 +30,7 @@ Below is an animation of migration patterns in Sierra Leone’s ADM2.
 
 If I had further time, I would have done some research into modifying the number of points and time variables to have a much better or accurate output of movement across Sierra Leone. I would modify the points based on the proportion of people in each area. We could get even more accurate if we get more granular data on the movement of people across Sierra Leone by week or month to better model or simulate the movements. We could have also incorporated other factors to check for specific movement across the country instead of just simulation movement of individuals across the country just like in the London example that used income as a factor to model movement. For the time variable, we don’t have an actual time variable incorporated into our animated plot above, so we could have incorporated one. We could have done more research to try to determine when most migration occurs. If we had an idea of when most migration occurred it would have help narrow down the temporal accuracy of our model or we could have gotten a specified length of time randomly the migration over that period of time to see how things play out and then continue to fine tune our model to give better temporal accuracy
 
-##Voronoi plots
+## Voronoi
 At the ADM2 level for Sierra Leone, using the defacto settlements from project 1 for Moyamba, I produced a tesselation of voronoi polygons -- Voronoi plots are a simple concept, and it's based on the minimal distance needed to reach a landmark. If you need to go to a metro station, the most natural algorithm is going to the nearest one. Simple, isn't it?. Below is the voronoi plot:
 
 [insert voronoi plot]

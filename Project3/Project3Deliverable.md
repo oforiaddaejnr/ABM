@@ -5,12 +5,13 @@ The Gravity Model is a model used to estimate the amount of interaction between 
 
 To learn more about how gravity models, how they work, and what they look like I followed the tutorial given by a step-by-step tutorial called Dr Ds Idiots Guide to Spatial Interaction Modelling for Dummies - Part 1: The Unconstrained (Total Constrained) Model. The tutorial used the city of London in the U.K to implement a gravity model.  In the tutorial, population and income data were the factors used to observe movement in this gravity model. They were used in weighing the probability of persons moving from one place to another. The matrix illustrates the number of persons that migrated from one place to another as determined by the income and population factors.
 
-[Insert london flow plot]
+![london flow plot](london_flow.png)
 
 ## ODM for Sierra Leone
 After following the London tutorial, I decided to look at the gravity model for the country of Sierra Leone, which has been the country I have used in every project this semester. For Sierra Leone, I looked at the migration flows at an ADM2 level, which has been how most of the projects I have done on Sierra Leone have turned out to be. Most of the data collected on Sierra Leone seems to be at the ADM2 level. To visualize the migration flow in Sierra Leone, I procured data on 5 year internal migration flow from worldpop.org. Using the data procured, Icreated plots showing the origin and destination flow sums for Sierra Leone’s ADM2. Below are the plots showing the flow sums for Sierra Leone’s ADM2
 
-[Insert Plots]
+![origin](orgin.png)
+![destination](destination.png)
 
 [Talk about the Plots]
 
@@ -20,20 +21,20 @@ A variable I would have added for further specification of my gravity model woul
 
 First of all what are OD matrices? OD matrices are the most common way to define demand for simulation. Each origin and each destination is a node in the network. Classically, for each origin the OD matrix has a row, and for each destination the OD matrix has a column. In each cell of the matrix the demand for the specific Origin-Destination pair (OD pair) is given. 
 The above description is the same way the OD matrix for Sierra Leone was put together in my code. The output below is a screenshot of the OD matrix for Sierra Leone where the NA represents internal migration within the same area and any cell that was not NA represented movement from one district to another. 
-[insert odm]
+![odm](odm.png)
 
 Below is a better representation of the migration patterns between the various districts in Sierra Leone’s ADM2
 
 ## Animation
 Below is an animation of migration patterns in Sierra Leone’s ADM2.
-[insert animation]
+![animation](output.gif)
 
 If I had further time, I would have done some research into modifying the number of points and time variables to have a much better or accurate output of movement across Sierra Leone. I would modify the points based on the proportion of people in each area. We could get even more accurate if we get more granular data on the movement of people across Sierra Leone by week or month to better model or simulate the movements. We could have also incorporated other factors to check for specific movement across the country instead of just simulation movement of individuals across the country just like in the London example that used income as a factor to model movement. For the time variable, we don’t have an actual time variable incorporated into our animated plot above, so we could have incorporated one. We could have done more research to try to determine when most migration occurs. If we had an idea of when most migration occurred it would have help narrow down the temporal accuracy of our model or we could have gotten a specified length of time randomly the migration over that period of time to see how things play out and then continue to fine tune our model to give better temporal accuracy
 
 ## Voronoi
 At the ADM2 level for Sierra Leone, using the defacto settlements from project 1 for Moyamba, I produced a tesselation of voronoi polygons -- Voronoi plots are a simple concept, and it's based on the minimal distance needed to reach a landmark. If you need to go to a metro station, the most natural algorithm is going to the nearest one. Simple, isn't it?. Below is the voronoi plot:
 
-[insert voronoi plot]
+![voronoi plot](moyamba_voronoi.png)
 
 Above, Moyamba is  divided into cells, each cell covering the region closest to a particular centre. Voronoi tesselations come in handy. Say for example you want to choose a location for a new service, such as a school, which is as far as possible from existing schools while still serving the maximum number of families. A Voronoi diagram can be used to find the largest empty circle amid a collection of points, giving the ideal location for the new school. Of course, numerous parameters other than distance must be considered, but access time is often the critical factor.
 

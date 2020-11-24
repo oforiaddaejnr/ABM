@@ -8,14 +8,21 @@ To learn more about how gravity models, how they work, and what they look like I
 ![london flow plot](london_flow.png)
 
 ## ODM for Sierra Leone
-After following the London tutorial, I decided to look at the gravity model for the country of Sierra Leone, which has been the country I have used in every project this semester. For Sierra Leone, I looked at the migration flows at an ADM2 level, which has been how most of the projects I have done on Sierra Leone have turned out to be. Most of the data collected on Sierra Leone seems to be at the ADM2 level. To visualize the migration flow in Sierra Leone, I procured data on 5 year internal migration flow from worldpop.org. Using the data procured, Icreated plots showing the origin and destination flow sums for Sierra Leone’s ADM2. Below are the plots showing the flow sums for Sierra Leone’s ADM2
+After following the London tutorial, I decided to look at the gravity model for the country of Sierra Leone, which has been the country I have used in every project this semester. For Sierra Leone, I looked at the migration flows at an ADM2 level, which has been how most of the projects I have done on Sierra Leone have turned out to be. Most of the data collected on Sierra Leone seems to be at the ADM2 level. To visualize the migration flow in Sierra Leone, I procured data on 5 year internal migration flow from ![](worldpop.org).
+These are the districts in ADM2 where we observed the migration flow.
+![districts](districts.png)
+Using the data procured, I created plots showing the origin and destination flow sums for Sierra Leone’s ADM2. Below are the plots showing the flow sums for Sierra Leone’s ADM2. I even added the labels of the various district so you better see what district is which
 
 ![origin](origin.png)
 
 ![destination](destination.png)
 
-[Talk about the Plots]
+### Connecting the dots
+![migration flow](migrationflows.png)
 
+The above plot connects the dots to show the various movements going on between the various districts
+
+### Further specification of the gravity model
 A variable I would have added for further specification of my gravity model would have been distance to major roads. I believe this is an important factor. If one lives closer to a major road there is the likelihood that they may do a lot more migration than someone living near a less frequented road. For example the roads leading to D.C are major ones because there are a lot of people that live in the Northern Virginia area and also work there or in D.C, so there is always large levels of migration to the area. I feel having a the variable or factor distance to major road would have helped
 
 ## How is the OD matrix used to model migration for my selected country?
@@ -25,6 +32,10 @@ The above description is the same way the OD matrix for Sierra Leone was put tog
 ![odm](odm.png)
 
 Below is a better representation of the migration patterns between the various districts in Sierra Leone’s ADM2
+
+![distances](distances.png)
+
+As you can see from the above screenshot thiare 196 rows with 2 columns. The above screenshot from row 1 to 14 shows the distance from one district in Sierra Leone to the other parts. That is what was illustrated in the ODM image above - the one before this image -, but this simplifies it and is much easier to read.
 
 ## Animation
 Below is an animation of migration patterns in Sierra Leone’s ADM2.

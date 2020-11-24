@@ -9,8 +9,10 @@ To learn more about how gravity models, how they work, and what they look like I
 
 ## ODM for Sierra Leone
 After following the London tutorial, I decided to look at the gravity model for the country of Sierra Leone, which has been the country I have used in every project this semester. For Sierra Leone, I looked at the migration flows at an ADM2 level, which has been how most of the projects I have done on Sierra Leone have turned out to be. Most of the data collected on Sierra Leone seems to be at the ADM2 level. To visualize the migration flow in Sierra Leone, I procured data on 5 year internal migration flow from ![](worldpop.org).
-These are the districts in ADM2 where we observed the migration flow.
+These are the districts in ADM2 where we observed the migration flow. <br/>
+
 ![districts](districts.png)
+
 Using the data procured, I created plots showing the origin and destination flow sums for Sierra Leone’s ADM2. Below are the plots showing the flow sums for Sierra Leone’s ADM2. I even added the labels of the various district so you better see what district is which
 
 ![origin](origin.png)
